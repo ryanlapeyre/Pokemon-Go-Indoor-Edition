@@ -1,11 +1,2 @@
 # Pokemon-Go-Inside-Edition
-# Pokemon-Go-Inside-Edition
-# Pokemon-Go-Inside-Edition
-# Pokemon-Go-Indoor-Edition
-# Pokemon-Go-Indoor-Edition
-# Pokemon-Go-Indoor-Edition
-# Pokemon-Go-Indoor-Edition
-# Pokemon-Go-Indoor-Edition
-# Pokemon-Go-Indoor-Edition
-# Pokemon-Go-Indoor-Edition
-# Pokemon-Go-Indoor-Edition
+A little game made for a Java class in college. Might add additional features later on.
