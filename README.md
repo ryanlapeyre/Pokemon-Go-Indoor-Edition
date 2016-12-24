@@ -1,0 +1,1 @@
+# Pokemon-Go-Inside-Edition
