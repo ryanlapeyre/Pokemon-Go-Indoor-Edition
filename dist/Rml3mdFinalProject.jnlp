@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Rml3mdFinalProject.jnlp">
+  <information>
+    <title>Rml3mdFinalProject</title>
+    <vendor>Ryan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Rml3mdFinalProject.jar" size="542442" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Rml3mdFinalProject" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="rml3mdfinalproject.Rml3mdFinalProject"  name="Rml3mdFinalProject" />
+  <update check="always"/>
+</jnlp>

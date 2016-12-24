@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rml3mdfinalproject.MenuController">
+    <children>
+        <Button layoutX="373.0" layoutY="367.0" onAction="#startNewGame" prefHeight="25.0" prefWidth="95.0" style="-fx-alignment: center;" text="New Game">
+         <font>
+            <Font name="Yu Gothic UI Light" size="12.0" />
+         </font></Button>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="850.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#exitGame" text="Quit" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Misc.">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#aboutMenu" text="About" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Button layoutX="373.0" layoutY="403.0" mnemonicParsing="false" onAction="#handleLoadGameButtonAction" prefHeight="25.0" prefWidth="95.0" style="-fx-alignment: center;" text="Load Game">
+         <font>
+            <Font name="Yu Gothic UI Light" size="12.0" />
+         </font></Button>
+      <Button layoutX="373.0" layoutY="439.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="25.0" prefWidth="95.0" style="-fx-alignment: center;" text="Quit">
+         <font>
+            <Font name="Yu Gothic UI Light" size="12.0" />
+         </font></Button>
+      <ImageView fx:id="startImageView" fitHeight="200.0" fitWidth="300.0" layoutX="270.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" style="-fx-alignment: center;" />
+      <Text layoutX="332.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-alignment: center;" text="Indoor Version" wrappingWidth="186.29296875">
+         <font>
+            <Font name="Lucida Sans Regular" size="24.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rml3mdfinalproject.GameController">
+    <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="850.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#handleSave" text="Save" />
+                  <MenuItem mnemonicParsing="false" onAction="#returnToMenu" text="Return to Menu" />
+              <MenuItem mnemonicParsing="false" onAction="#exitGame" text="Quit" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fx:id="startImageView" fitHeight="270.0" fitWidth="352.0" layoutX="228.0" layoutY="74.0" onMouseClicked="#pokemonClick" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="evolveButton" layoutX="373.0" layoutY="445.0" mnemonicParsing="false" onAction="#evolveClick" text="Evolve " />
+      <Label fx:id="miles" layoutX="410.0" layoutY="386.0" prefHeight="17.0" prefWidth="51.0" />
+      <Label layoutX="320.0" layoutY="386.0" text="Miles &quot;Ran&quot; :" />
+      <Label layoutX="461.0" layoutY="386.0" text="Next Evolution :" />
+      <Label fx:id="levelsRequired" layoutX="577.0" layoutY="386.0" text="30" />
+    </children>
+</AnchorPane>
